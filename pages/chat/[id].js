@@ -51,6 +51,8 @@ export async function getServerSideProps(context) {
 			chat: chat,
 		},
 	};
+
+	
 }
 
 const Container = styled.div`

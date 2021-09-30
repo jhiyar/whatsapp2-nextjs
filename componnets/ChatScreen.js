@@ -64,6 +64,7 @@ function ChatScreen({ chat, messages }) {
 		db.collection('users').doc(user.uid).set(
 			{
 				lastSeen: firebase.firestore.FieldValue.serverTimestamp(),
+				
 			},
 			{ merge: true }
 		);
