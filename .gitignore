@@ -32,3 +32,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# API key file
+firebaseAPI.js
